@@ -267,7 +267,7 @@ Below is the core domain model expected for the user-side backend.
 | Image Storage | Cloudinary |
 | API Documentation | Swagger / OpenAPI |
 | API Testing | Postman |
-| Build Tool | Gradle / Maven |
+| Build Tool | Gradle |
 
 ---
 
@@ -303,7 +303,7 @@ BookNest-User-Backend/
 │       │   └── common/          # exception, validation, config, utils
 │       └── resources/
 │           └── application.properties
-└── build.gradle / pom.xml
+└── build.gradle
 ```
 
 ---
@@ -351,12 +351,6 @@ springdoc.swagger-ui.path=/swagger-ui.html
 ```
 
 ### 3. Run the application
-
-```bash
-./mvnw spring-boot:run
-```
-
-or
 
 ```bash
 ./gradlew bootRun
