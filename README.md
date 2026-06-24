@@ -42,7 +42,7 @@ The backend is built with a **clean layered architecture** and follows RESTful d
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="Architecture.png" alt="BookNest User Backend Architecture" width="100%"/>
+  <img src="ArchitectureBookNest.png" alt="BookNest User Backend Architecture" width="100%"/>
 </p>
 
 The application follows a strict **layered architecture**:
